@@ -1,0 +1,904 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOIHWCUSeEsyNjpFeqLidvJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/thalla-manasa/Irevolution/blob/main/Python%20Notes\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0VVR_ut2O4Hg",
+        "outputId": "d80cd581-17ba-4c8e-9941-1be905fda17a"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Manasa\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Manasa\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from typing_extensions import Notes\n",
+        "Comments And Keywords:\n",
+        "Comments Are used to Explain Code and make it more Readable.\n",
+        "They are not executed by the python interpreter.\n",
+        "Two types of Comments:\n",
+        "1.Single line Comments\n",
+        "*Starts with A hash symbol\"#\".\n",
+        "*Used for Shot Single LIne Explanations or Notes\n",
+        "# my 1st program\n",
+        "\n",
+        " 2.multi line comments/docstring\n",
+        " *text within ''' ''' or \"\"\" \"\"\"\n",
+        " * used For multi line commenting or for Paragraph\n",
+        " Ex:'''1st program in python\n",
+        "          Hello Good Afternoon'''\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "SyddePz8QzTa"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Keywords:\n",
+        "They are Reserved words that have special meaning and cannot be used as variable names or function names or identifiers.\n",
+        "These are used to define the syntax and structure of the python language.\n",
+        "\n",
+        "Ex: if,for,True,False,import,while,....etc"
+      ],
+      "metadata": {
+        "id": "IVWgR5yxRFtD"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#output Function Print()\n",
+        "print(\"Hello Good Afternoon\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OAX7piP4S022",
+        "outputId": "bb11a1c3-c3e2-425d-ddf8-c560bcacee8b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello Good Afternoon\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#My name is Manasa and i am from Srikalahasthi\n"
+      ],
+      "metadata": {
+        "id": "Ml0LNZD4T7rn"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#input function is input()\n",
+        "\n",
+        "name=input(\"Enter your Name\")\n",
+        "place=input(\"Enter your place\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HbeDEmdDUYT0",
+        "outputId": "e1260100-0d38-4b0e-e997-b01d26a10c91"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter your NameManasa Yugandhar\n",
+            "Enter your placeSrikalahasthi\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(name,place)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GlKpxbX1VEp-",
+        "outputId": "c5453f6e-c0cc-4e9c-d2d3-f3cf26740a58"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Manasa Yugandhar Srikalahasthi\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"My name is \",name,\"and i am from\",place)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ipvv2PQNVJe0",
+        "outputId": "9fa0576b-6539-4a54-e8fe-5567260f4a0e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My name is  Manasa Yugandhar and i am from Srikalahasthi\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#format{}\n",
+        "print(\"my name is {} and i am from {}\".format(name,place))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ohvgrNkhVpOZ",
+        "outputId": "36695617-0c3f-4603-920a-77e0e840ac2f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "my name is Manasa Yugandhar and i am from Srikalahasthi\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# f string method\n",
+        "print(f\"my name is {name} and i am from {place}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "M3r0KtzCWJcx",
+        "outputId": "ef658ac2-e3f7-4fb6-b0d7-f5c2bbf019ed"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "my name is Manasa Yugandhar and i am from Srikalahasthi\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=6\n",
+        "b=2\n",
+        "print(a+b)"
+      ],
+      "metadata": {
+        "id": "CjdxkaGtYXjy",
+        "outputId": "f29e5640-6602-4932-be07-fe65c4a6aab8",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# write a program for addition of two numbers\n",
+        "a=int(input(\"Enter a value\"))\n",
+        "b=int(input(\"Enter b value\"))\n",
+        "print(a+b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4aOscZcgWnCw",
+        "outputId": "508451c5-121a-44d5-c373-b9994f5d70e1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a value23\n",
+            "Enter b value16\n",
+            "39\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# write a program to calculate area of rectangle and area of circle\n",
+        "l=int(input(\"Enter the length\"))\n",
+        "b=int(input(\"Enter the breadth\"))\n",
+        "r=int(input(\"Enter the radius\"))\n",
+        "area = l * b\n",
+        "print(\"Area of rectangle is\",area)\n",
+        "print(\"Area of circle is\",3.142*r*r)"
+      ],
+      "metadata": {
+        "id": "EM-RCfebYeeA",
+        "outputId": "6e4d7913-dd3e-4150-84c2-6ca64bb5c26f",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the length23\n",
+            "Enter the breadth16\n",
+            "Enter the radius3\n",
+            "Area of rectangle is 368\n",
+            "Area of circle is 28.278\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Variables:\n",
+        "Its a value Holder.\n",
+        "\n",
+        "Valid variable Declarations:\n",
+        "a=23\n",
+        "b=16\n",
+        "num1=2316\n",
+        "num2=2003\n",
+        "stu_name='Manasa'\n",
+        "stu_place='Srikalahasthi'\n",
+        "num11=23162003\n",
+        "\n",
+        "Invalid Variable Declaration:\n",
+        "\n",
+        "Keywords are not used as variables.\n",
+        "stu num =9100\n",
+        "1num = 22\n",
+        "emp@name$='Karthik'"
+      ],
+      "metadata": {
+        "id": "i2-9MVZ_XEPb"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=3\n",
+        "b=6\n",
+        "c=a+b\n",
+        "print(c)\n",
+        "m=c*c\n",
+        "print(m)\n",
+        "d=m/2\n",
+        "print(d)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TMJHEMAgwWkf",
+        "outputId": "3e7085ee-a988-4e97-e009-f9e73ddfea28"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "9\n",
+            "81\n",
+            "40.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Datatypes:\n",
+        "They represnts the type of data.\n",
+        "\n",
+        "Single valued data types:\n",
+        "\n",
+        "int\n",
+        "float\n",
+        "str\n",
+        "complex\n",
+        "bool\n",
+        "\n",
+        "Multi valued data types:\n",
+        "list\n",
+        "tuple\n",
+        "set\n",
+        "dict\n",
+        "frozenset\n",
+        "bytes\n",
+        "bytearray\n",
+        "range"
+      ],
+      "metadata": {
+        "id": "ld28yHe4wuIY"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=6\n",
+        "type(a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iqvrLYGKzogX",
+        "outputId": "f93abb9a-551e-4ee5-a0d9-0c2a7e32043e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "int"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "b=23,16\n",
+        "type(b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JSULKoSS0Blg",
+        "outputId": "7f10b469-c2a2-49a2-998b-ebde9ba71879"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "tuple"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "b=23,16\n",
+        "print(b)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TxBoTaM00G1B",
+        "outputId": "b95c306d-84a1-4d0e-f6e4-a39ca509ff8f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "(23, 16)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#read a float value from user then covert that value to integer.\n",
+        "a= float(input(\"Enter a value\"))\n",
+        "print(type(a))\n",
+        "print(a)\n",
+        "b=int(a)\n",
+        "print(b)\n",
+        "print(b)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "F1TH2GyL0N1g",
+        "outputId": "acad66d2-6ae6-46ad-b87a-81669298bcd2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a value23.16\n",
+            "<class 'float'>\n",
+            "23.16\n",
+            "23\n",
+            "23\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Operators:\n",
+        "1.Arithmetic Operator: +  -  *  /  %  **  //\n",
+        "2.Comparison Operator / Relational Operator: >  <  >=  <=  ==  !=\n",
+        "3.Logical Operator: and  or  not\n",
+        "4.Assignment Operator: =  +=  -=  *=  /=  %=  **=  //=\n",
+        "5.Bitwise Operator: &  |  ^  ~  <<  >>\n",
+        "6.Membership Operator: in  not in\n",
+        "7.Identity Operator: is  is not"
+      ],
+      "metadata": {
+        "id": "Aq4qwgKh263G"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#write a program to read student name ,id,email,3 subjects marks out of 100 and display the details in the below format.\n",
+        "\n",
+        "*****Student Details*****\n",
+        "ID:\n",
+        "NAME:\n",
+        "Email:\n",
+        "Subject1:\n",
+        "Subject2:\n",
+        "Subject3:\n",
+        "Total:\n",
+        "Percentage:\n",
+        "*****All The Best*****"
+      ],
+      "metadata": {
+        "id": "AgSbr4K_6Kmq"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num(input(\"Enter Stu Name\")\n"
+      ],
+      "metadata": {
+        "id": "6heVzZapyQd3"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "operators:\n",
+        "Its a Special Symbols Perform Certain Operation between two operands.\n",
+        "Quotient-Floor Division\n",
+        "Reminder-modulos\n",
+        "division\n",
+        "\n",
+        "Ex: s =2+3\n",
+        "     s= 7"
+      ],
+      "metadata": {
+        "id": "yeEhwT4oytab"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Arithemetic operators:"
+      ],
+      "metadata": {
+        "id": "vwGpidMv0l9P"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "5/2  #division"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5p7gFDOfznm1",
+        "outputId": "ac8a44a1-5ecd-4edc-d00e-c49223e3e56e"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "2.5"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 1
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "5%2  #modulous"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-AXD8zBczq2a",
+        "outputId": "a05f03af-d460-46c2-c697-e85320de032f"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "1"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "5//2  #floor division"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eiM7tBxlzveR",
+        "outputId": "eb541633-fe1a-4a73-8207-66f330f27353"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "2"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "7*2  #multiplication"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "C6mov1XF0ARh",
+        "outputId": "c6bafc6c-d9f9-42c8-e88b-a0f0afc32ae0"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "14"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "7**3 #power value"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bFvGsobf0UM9",
+        "outputId": "3025abeb-37a0-433f-fa23-1bcd96154d40"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "343"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "2.Comparison Operator / Relational Operator: >  <  >=  <=  ==  !="
+      ],
+      "metadata": {
+        "id": "15g1YJy00WMq"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=7\n",
+        "b=3\n",
+        "a>b"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "23Pz_1V702pr",
+        "outputId": "d451fbb2-19ed-40da-f2c5-748e7fde1cef"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 8
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "3.Logical Operator: and  or  not"
+      ],
+      "metadata": {
+        "id": "EAzCTVH905Xr"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "con1    con2    and     or\n",
+        "false  false   false  false\n",
+        "false   true    false  true\n",
+        "true    false   false  true\n",
+        "true    true    true   true"
+      ],
+      "metadata": {
+        "id": "HdFaOe8o1NV5"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "not(True)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "n4D4QONF1gx4",
+        "outputId": "a61c82fa-c000-4aaf-9f20-05164f8e063b"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "not(False)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4I8SUnED1uSD",
+        "outputId": "f5035436-6745-4291-f38e-053194ad2ecd"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 23\n",
+        "b = 16\n",
+        "c = -20\n",
+        "\n",
+        "a==b and a!=c\n",
+        "a!=b or a!=c\n"
+      ],
+      "metadata": {
+        "id": "9w6IwbUt2O9q",
+        "outputId": "941d6cae-88de-4b39-8709-8c604d0728cb",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 12
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "B_4s9qBa1wqe"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
